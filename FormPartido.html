@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de Captura de datos</title>
+    </head>
+    <body>
+        <form id="form1" name="form1" method="post" action="recibir.php" enctype="multipart/form-data" ><p align="center"/>
+            <table>
+             <img src="BANNERS.jpg"><br><br>
+              <tr>
+                  <td>
+                      NOMBRE DEL PARTIDO:
+                  </td>
+                  <td>
+                      <input type="text" name="nombre" id="nombre" />
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      IMAGEN DEL PARTIDO:
+                  </td>
+                  <td>
+                      <input type="file" name="imagen"/>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                    PRESIDENTE DEL PARTIDO:
+                  </td>
+                  <td>
+                     <input type="text" name="presidente" id="presidente"/>
+                  </td>
+              </tr>
+              <tr>
+                 <td colspan="2">
+                     <input type="submit" name='Aceptar' id="Aceptar" value='Enviar Datos'>
+                 </td>
+              </tr>
+          </table>
+        </form>
+    </body>
+</html>

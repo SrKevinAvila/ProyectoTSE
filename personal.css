@@ -1,0 +1,133 @@
+/* Botones */
+/* Estilo del Div de formulario*/
+
+#saveForm {
+width: 142px;
+height: 40px;
+margin: 6px;
+}
+
+/* Parte del Formulario donde se piden los resultados de los examenes*/
+
+}
+
+legend {
+	font-style: italic;
+	font-size: 14px;
+}
+
+/* Div encabezador*/
+.encabezador {
+    background-color: silver;
+    border-radius: 8px;
+    width: calc(120%/1.2);
+    vertical-align: center;
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+font-family: Verdana;
+font-weight: lighter;
+color:white;
+}
+
+.encabezador div {
+ color: white;
+}
+
+#container {
+	box-shadow: 0px 12px 19px rgb(1,1,1);
+	max-width: calc(150%/1.6);
+	min-width: 68%;
+
+
+}
+
+/* links */
+ 
+ #enlaces:link {
+text-decoration: none;
+font-size: 16px;
+background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+border-radius: 4px;
+color:green;
+
+ }
+
+ #enlaces:visited {
+ 	color: white;
+ 	font-weight: bold;
+ 	background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+ }
+
+/* botones */
+input {
+	min-width: 4px;
+}
+/* 
+@media screen and (min-width: 100px) and (max-width: 1000px) {
+width: 800px;
+}
+*/
+
+/* Iframes contenedores de las tablas de resultados*/
+iframe {
+	max-width: 700px;
+	width: calc(140%/1.6);
+	height: 400px;
+	box-shadow: 0px 6px 5px rgb(0,1,1);
+	/*min-width: calc(100%/3.0) */
+}
+
+textarea {
+	width: calc(140%/1.6);
+}
+/* tabla de resultado*/
+#tabla-ant-feb {
+	padding: 0px;
+	border-spacing: 0px;
+
+}
+/* celdas de cabeza*/
+#celdas-cabeza {
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(white,white,white,white,white,white,silver,black);
+	background: -moz-linear-gradient(white,white,white,white,white,white,silver,black);
+	font-style: normal;
+}
+tr {
+	font-family: calibri;
+	font-style:;
+	font-size: 14px;
+	width: 20px;
+background: -moz-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6+ */
+background: -webkit-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6+ */
+}
+
+th {
+  font-family: calibri;
+  font-size: 20px;
+  background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+ background: -moz-linear-gradient(-45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+}
+
+/* pie de pagina  */
+footer {
+	background: -moz-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6+ */
+background: -webkit-linear-gradient(-45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6+ */
+max-width: calc(100%/1.8);
+min-width: 70%;
+align:center;
+border-style: ridge;
+border-radius: 4px;
+font-family: calibri;
+font-size: 22px;
+}
+
+footer p{
+	font-size: 12px;
+	"<br>";
+}
+
